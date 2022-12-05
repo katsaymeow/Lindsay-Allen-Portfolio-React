@@ -26,6 +26,7 @@ export default function NavBar() {
           <a href={resume} style={navStyle.links}>Resume</a> 
           <a href={interest} style={navStyle.links}>Interest</a> 
           <a href={mainPage} style={navStyle.links}>Main</a>
+          <a href='https://github.com/katsaymeow' style={navStyle.links}>GitHub</a>
           </div>
         </div>
     );

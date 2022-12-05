@@ -17,7 +17,7 @@ export default function Resume() {
             <div className="card" style={cardContainer}>
                 <h1 className="header">Career Objective</h1>
                 <p className="textBody" style={textBody}>
-                    Enthusiastic budding Web Developer with 7+ years experience with E-Commerce platforms like Shopify and Amazon. Discovering an interest in possibilities of the back-end of the internet of things, I began continuing my education at the Ohio State University. As a self motivated learner, I know the field of Web Development is a natural progression of that. Eagerly driven by results, I focus on detail execution and adaptability to complete complex projects.
+                    Enthusiastic budding Web Developer with 7+ years experience in E-Commerce with platforms like Shopify and Amazon. Discovering an interest in possibilities of the back-end of the internet of things, I began continuing my education at the Ohio State University. As a self motivated learner, I know the field of Web Development is a natural progression of that. Eagerly driven by results, I focus on detail execution and adaptability to complete complex projects.
                 </p>
             </div>
         </div>
