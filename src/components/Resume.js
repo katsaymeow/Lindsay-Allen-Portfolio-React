@@ -34,9 +34,9 @@ export default function Resume() {
         <div className='container'>
             <div className='card' style={cardContainer}>
             <h2 className="heading">Bartender</h2>
-                    <p className='title'>Various Location, Cincinnati, Ohio -- 2003 - 2018</p>
+                    <p className='title'>Various Location, Cincinnati, Ohio 2003 - 2018</p>
                     <p className="textBody" style={textBody}>
-                        Naturally a people person, bartending is a delightfully attractive profession. Fast-paced customer service, artful execution a delicious beverages and a meaningful team experience. Boiling down my experience to a few sentences will not lend justice to the work. Experience in high end restaurants like Montgomery Inn at the Boathouse, Trattoria Roma and Palomino, Barleycorn’s and a few local favorites like The Crows Nest. Bartending taught me leadership skills, attention to detail, inventory management and adaptability to a situation.
+                        Naturally a people person, bartending is a delightfully attractive profession. Fast-paced customer service, artful execution a delicious beverages and a meaningful team experience. Boiling down my experience to a few sentences will not lend justice to the work. Experience in high end restaurants like Montgomery Inn at the Boathouse, Trattoria Roma and Palomino, and a few local favorites like The Crows Nest and Barleycorn’s. Bartending taught me leadership skills, attention to detail, inventory management and adaptability to a situation.
                     </p>
             </div>
         </div>
