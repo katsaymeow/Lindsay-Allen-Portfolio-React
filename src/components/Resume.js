@@ -1,12 +1,13 @@
 import React from 'react';
-
+// is resume overkill? Should I just list projects
 export default function Resume() {
     const cardContainer = {
         width: '85%',
-        margin: '7.5%',
+        margin: '7px',
+        marginLeft: '15px',
         background: '#e1e8eb',
         color: '#202121',
-        content: 'center',//this did nothing
+        // content: 'center',//this did nothing
     };
     const textBody = {
         margin: '1rem',
@@ -36,7 +37,7 @@ export default function Resume() {
             <h2 className="heading">Bartender</h2>
                     <p className='title'>Various Location, Cincinnati, Ohio 2003 - 2018</p>
                     <p className="textBody" style={textBody}>
-                        Naturally a people person, bartending is a delightfully attractive profession. Fast-paced customer service, artful execution a delicious beverages and a meaningful team experience. Boiling down my experience to a few sentences will not lend justice to the work. Experience in high end restaurants like Montgomery Inn at the Boathouse, Trattoria Roma and Palomino, and a few local favorites like The Crows Nest and Barleycorn’s. Bartending taught me leadership skills, attention to detail, inventory management and adaptability to a situation.
+                        Naturally a people person, bartending is a delightfully attractive profession. Fast-paced customer service, artful execution a delicious beverages and a meaningful team experience. Boiling down my experience to a few sentences will not lend justice to the work. Bartending taught me leadership skills, attention to detail, inventory management and adaptability to a situation.
                     </p>
             </div>
         </div>

@@ -31,4 +31,4 @@ export default function NavBar() {
         </div>
     );
 };
-// needs to have links to the Interest page and resume
+// 
