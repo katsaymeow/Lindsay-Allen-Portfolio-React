@@ -4,11 +4,12 @@ import me from "../img/41.jpeg";
 
 const imgStyle = {
     img: {
-        marginLeft: '30px',
-        height: '250px',
-        borderRadius: '100%'
+        margin: '10px 340px',
+        height: '240px',
+        borderRadius: '50%'
     },
 }
+// This might need to change to about. It makes more sense. 
 export default function MainPage() {// this can be something else just added content to see how it works. 
     return (
         <div>

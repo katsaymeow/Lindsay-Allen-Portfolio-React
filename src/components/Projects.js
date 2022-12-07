@@ -1,26 +1,29 @@
-import React from 'react';
-import MycoHaus from '../img/mycohaus.png';
+import React from "react";
+import MycoHaus from "../img/mycohaus.png";
 
-const cardStyle = {
-    card: {
-        padding: '75px'
-    },
-    img: {
-        height: '370px',
-        width: '450px',
-        borderRadius: '20px'
-    }
-}
-export default function Projects(props) {
-    return (
-        <div className='card-body' style={cardStyle.card}>
-            <div className='card-heading'>MycoHaus</div>
-            <img src={MycoHaus} alt='mycohaus' style={cardStyle.img}></img>
+// const cardStyle = {
+//   img: {
+//     height: "370px",
+//     width: "450px",
+//     borderRadius: "20px",
+//   },
+// };
+export default function Projects() {
+  return (
+    <div className="row">
+      <div className="col-sm-6">
+        <div className="card">
+          <div className="card-header">MycoHaus</div>
+          <img src={MycoHaus} class="card-img-top" alt="MycoHaus" />
+          <div className="card-body">
             <div>
-            <button>
-            <a href='https://www.mycohaus.com/'>MycoHaus</a>
-            </button>
+              <a href="https://www.mycohaus.com/" class="card-link">
+                MycoHaus
+              </a>
             </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }

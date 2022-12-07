@@ -9,6 +9,7 @@ export default function Resume() {
         color: '#202121',
         // content: 'center',//this did nothing
     };
+    // google drive resume add href and allow download/ 
     const textBody = {
         margin: '1rem',
         // bottomMargin: '1rem',//not working

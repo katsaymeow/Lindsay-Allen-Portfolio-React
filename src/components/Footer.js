@@ -3,7 +3,7 @@ import React from 'react';
 // I know I can create the links to open in a new page with blank? but not sure how
 const style = {
     footer: {
-        height: '70px',
+        height: '1000px',
         background: '#DFEDD6'
     },
     links: {
@@ -16,8 +16,21 @@ export default function Footer() {
     return (
         <footer style={style.footer}>
             <div>
-                <a href="https://github.com/katsaymeow" style={style.links}>GitHub</a>
-                <a href="https://www.linkedin.com/in/lindsay-allen-3545b2243" style={style.links}>LinkedIn</a>
+                <a 
+                href="https://github.com/katsaymeow" 
+                style={style.links}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                    GitHub
+                 </a>
+                <a 
+                href="https://www.linkedin.com/in/lindsay-allen-3545b2243" style={style.links}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                    LinkedIn
+                 </a>
             </div>
         </footer>
     )

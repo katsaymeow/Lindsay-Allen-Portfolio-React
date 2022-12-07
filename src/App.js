@@ -1,27 +1,35 @@
-import React, {useState} from 'react';
-import NavBar from './components/NavBar';
-import Header from './components/Header';
-import MainPage from './components/MainPage';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
-import Projects from './components/Projects';
+import React, { useState } from "react";
+import NavBar from "./components/NavBar";
+import MainPage from "./components/MainPage";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function App () {
-  const pages = ['MainPage', 'Resume', 'Interest'];
-  const [currentPage, setCurrentPage] = useState(pages[0]);
-  // setCurrentPage() => {
-// I think I need to set this logic on in the nav page since that is where the links will be performed?
-  // }
-  // I want a conditional statement that will take the onclick actions of the page for resume mainpage and projects
-    return (
-      <div>
-        <Header/>
-        <NavBar 
-        currentPage={currentPage}/>
-        <MainPage/>
-        <Projects/> 
-         <Resume/>
-        <Footer/>
-      </div>
-    )
-}// needs conditional rendering and handler functions like setCurrentPage. 
+export default function App() {
+  const [currentPage, setCurrentPage] = useState("MainPage");
+
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === "MainPage") {
+      return <MainPage />;
+    }
+    if (currentPage === "Projects") {
+      return <Projects />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
+    // return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+      <Footer />
+    </div>
+  );
+}
