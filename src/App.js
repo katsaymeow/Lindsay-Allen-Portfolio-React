@@ -5,6 +5,7 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from "./components/About";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("MainPage");
@@ -20,7 +21,7 @@ export default function App() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    // return <Contact />;
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

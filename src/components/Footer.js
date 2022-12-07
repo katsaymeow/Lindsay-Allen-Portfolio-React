@@ -3,11 +3,11 @@ import React from 'react';
 // I know I can create the links to open in a new page with blank? but not sure how
 const style = {
     footer: {
-        height: '1000px',
+        height: '100px',
         background: '#DFEDD6'
     },
     links: {
-        content: 'space-between',
+        // content: 'space-between',
         padding: '40px'
     }
 }
@@ -31,7 +31,16 @@ export default function Footer() {
                 >
                     LinkedIn
                  </a>
+                <a
+                href="https://drive.google.com/file/d/1RlzT4DUQFUOuqf6laJGaXRa2IVq1c9Cq/view?usp=share_link"
+                style={style.links}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                    Download Resume
+                </a>
             </div>
+            
         </footer>
     )
 }
