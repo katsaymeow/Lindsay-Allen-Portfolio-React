@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Lindsay-Allen-Portfolio-React/static/css/main.44f8b8b5.css",
+    "main.js": "/Lindsay-Allen-Portfolio-React/static/js/main.6a9b7970.js",
+    "static/js/787.128fc6e9.chunk.js": "/Lindsay-Allen-Portfolio-React/static/js/787.128fc6e9.chunk.js",
+    "static/media/I-love-nature.jpeg": "/Lindsay-Allen-Portfolio-React/static/media/I-love-nature.d2f0cd2cedda12a32570.jpeg",
+    "static/media/galaxy-JW.JPG": "/Lindsay-Allen-Portfolio-React/static/media/galaxy-JW.f61482fe61e77524008e.JPG",
+    "static/media/41.jpeg": "/Lindsay-Allen-Portfolio-React/static/media/41.19820ad0b7016c1b7563.jpeg",
+    "static/media/Me-In-Colorado.jpeg": "/Lindsay-Allen-Portfolio-React/static/media/Me-In-Colorado.af85a1102ce44f726a27.jpeg",
+    "static/media/mycohaus.png": "/Lindsay-Allen-Portfolio-React/static/media/mycohaus.69aaadf458ef2c136e56.png",
+    "static/media/Music-venue-API.png": "/Lindsay-Allen-Portfolio-React/static/media/Music-venue-API.11cc1f063dbf86cbde34.png",
+    "static/media/Resume.png": "/Lindsay-Allen-Portfolio-React/static/media/Resume.f9fa00da71586fc74216.png",
+    "static/media/ss-page.png": "/Lindsay-Allen-Portfolio-React/static/media/ss-page.0c315179a3b17efe0811.png",
+    "static/media/ss-of-the-page-deployed-from-html.png": "/Lindsay-Allen-Portfolio-React/static/media/ss-of-the-page-deployed-from-html.d059d819e8faae608931.png",
+    "index.html": "/Lindsay-Allen-Portfolio-React/index.html",
+    "main.44f8b8b5.css.map": "/Lindsay-Allen-Portfolio-React/static/css/main.44f8b8b5.css.map",
+    "main.6a9b7970.js.map": "/Lindsay-Allen-Portfolio-React/static/js/main.6a9b7970.js.map",
+    "787.128fc6e9.chunk.js.map": "/Lindsay-Allen-Portfolio-React/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.6a9b7970.js"
+  ]
+}
