@@ -1,9 +1,12 @@
 import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 // I want to add contact info here and create a larger border in the footer that stays on the page.
 // I know I can create the links to open in a new page with blank? but not sure how
 const style = {
     footer: {
-        height: '100px',
+        height: '300px',
         background: '#DFEDD6'
     },
     links: {
@@ -40,7 +43,21 @@ export default function Footer() {
                     Download Resume
                 </a>
             </div>
-            
+            <br></br>
+            <Row>
+        <Form.Label column="lg" lg={1}>
+          Contact
+        </Form.Label>
+        <Col>
+          <Form.Control size="lg" type="text" placeholder="Your Email" />
+        </Col>
+        <Form.Label column="lg" lg={1}>
+          Message
+        </Form.Label>
+        <Col>
+          <Form.Control size="lg" type="text" placeholder="Say Hi!" />
+        </Col>
+      </Row>
         </footer>
     )
 }
