@@ -10,7 +10,6 @@ import About from "./components/About";
 export default function App() {
   const [currentPage, setCurrentPage] = useState("MainPage");
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === "MainPage") {
       return <MainPage />;
