@@ -9,7 +9,6 @@ export default function Projects() {
     <div className="row">
       <div className="col-sm-6">
         <div className="card">
-          {/* <div className="card-header">MycoHaus</div> */}
           <div className="card-body">
             <div>
               <a
@@ -26,7 +25,6 @@ export default function Projects() {
       </div>
       <div className="col-sm-6">
         <div className="card">
-          {/* <div className="card-header">Simple Quiz Application</div>  */}
           <div className="card-body">
             <div>
               <a
@@ -43,7 +41,6 @@ export default function Projects() {
       </div>
       <div className="col-sm-6">
         <div className="card">
-          {/* <div className="card-header">Music Venue API</div> */}
           <div className="card-body">
             <div>
               <a
@@ -60,7 +57,6 @@ export default function Projects() {
       </div>
       <div className="col-sm-6">
         <div className="card">
-          {/* <div className="card-header">Planner With Time Priority</div> */}
           <div className="card-body">
             <div>
               <a

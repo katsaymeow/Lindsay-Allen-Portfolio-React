@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import space from "../img/galaxy-JW.JPG";
 import nature from "../img/I-love-nature.jpeg";
 import rocks from "../img/Me-In-Colorado.jpeg";
-// I think the entire Nav needs to be here instead of its own page as component
+
 export default function About() {
     return (
               <Carousel fade>

@@ -3,14 +3,13 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 // I want to add contact info here and create a larger border in the footer that stays on the page.
-// I know I can create the links to open in a new page with blank? but not sure how
+// still needs style anf function
 const style = {
     footer: {
         height: '300px',
         background: '#DFEDD6'
     },
     links: {
-        // content: 'space-between',
         padding: '40px'
     }
 }
