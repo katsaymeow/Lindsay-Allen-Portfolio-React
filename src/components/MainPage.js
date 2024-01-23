@@ -52,7 +52,7 @@ const styles = {
           />
           <div>
             <p style={styles.quote}>
-            With a love of accountability in retail, I forge ahead to learn all I can to create spaces for makers and entrepreneurs to engage. As I learn about new technologies, I am enthusiastic about the possibilities.
+            Passionate about fostering accountability in the retail sector, I am dedicated to continuously expanding my knowledge to craft dynamic digital spaces for entrepreneurs. Eagerly embracing the ever-evolving landscape of technology, I am enthusiastic about leveraging innovative solutions to create impactful online experiences.
             </p>
           </div>
           <p style={styles.name}>

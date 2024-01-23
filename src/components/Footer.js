@@ -1,12 +1,13 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
+import FormGroup from 'react-bootstrap/FormGroup'
+import Button from 'react-bootstrap/Button'
 // I want to add contact info here and create a larger border in the footer that stays on the page.
 // still needs style anf function
 const style = {
     footer: {
-        height: '300px',
+        height: '900px',
         background: '#DFEDD6'
     },
     links: {
@@ -43,20 +44,29 @@ export default function Footer() {
                 </a>
             </div>
             <br></br>
-            <Row>
+
+            <Form>
+           <FormGroup>
         <Form.Label column="lg" lg={1}>
           Contact
         </Form.Label>
         <Col>
-          <Form.Control size="lg" type="text" placeholder="Your Email" />
+          <Form.Control size="lg" type="email" placeholder="Your Email" />
         </Col>
+        </FormGroup>
+
+      <FormGroup>
         <Form.Label column="lg" lg={1}>
           Message
         </Form.Label>
         <Col>
-          <Form.Control size="lg" type="text" placeholder="Say Hi!" />
+          <Form.Control size="lg" as='textarea' rows='{5}' placeholder="Say Hi!" />
         </Col>
-      </Row>
+        </FormGroup>
+    <Button size='lg' type="submit" className='button'>
+Submit
+    </Button>
+      </Form>
         </footer>
     )
 }
