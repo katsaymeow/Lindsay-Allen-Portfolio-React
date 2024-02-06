@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-export default function NavBar({ currentPage, handlePageChange }) {
+export default function NavBar({ handlePageChange }) {
   return (
 
     <Navbar bg="dark" variant="dark">
@@ -43,13 +43,12 @@ export default function NavBar({ currentPage, handlePageChange }) {
         >
           GitHub
           </Nav.Link>
-
+{/* Change To CONTACT FORM */}
           <Nav.Link 
-        href="https://www.meetup.com/members/363994489/"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="#Form"
+        onClick={() => handlePageChange("Form")}
         >
-          MeetUp
+          Contact
           </Nav.Link>
       </Nav>
     </Container>

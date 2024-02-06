@@ -6,6 +6,10 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About";
+import FormUp from "./components/Form";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("MainPage");
@@ -19,6 +23,9 @@ export default function App() {
     }
     if (currentPage === "Resume") {
       return <Resume />;
+    }
+    if (currentPage === "Form") {
+      return <FormUp />;
     }
     return <About />;
   };
